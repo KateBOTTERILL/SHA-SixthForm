@@ -9,7 +9,7 @@ df = pd.read_excel("Free rooms Oct25.xlsx", engine="openpyxl")
 period_columns = df.columns[1:]
 
 # Streamlit UI
-st.title("Room Availability Checker")
+st.title("Shaftesbury School Free Room Checker")
 selected_periods = st.multiselect("Select one or more periods:", period_columns)
 
 if selected_periods:
