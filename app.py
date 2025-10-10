@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 
-st.image("shaftesbury_logo.png", width=150)
+st.image("2021 Logo cropped.png", width=150)
 
 # Load the Excel file
 df = pd.read_excel("Free rooms Oct25.xlsx", engine="openpyxl")
