@@ -1,4 +1,4 @@
-
+st.image("shaftesbury_logo.png", width=150)
 import streamlit as st
 import pandas as pd
 
