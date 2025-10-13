@@ -38,4 +38,4 @@ warning_message = """
 
 st.markdown(warning_message)
 
-st.markdown("Room data accurate as of 13/10/2025")
+st.markdown("*Room data accurate as of 13/10/2025*")
