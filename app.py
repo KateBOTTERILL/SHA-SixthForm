@@ -21,4 +21,4 @@ if selected_periods:
     st.write(filtered_df[["Room"] + selected_periods])
 else:
     st.info("Please select at least one period to see available rooms.")
-    st.info("Instructions for students: Strictly no eating | Quiet study only |Rooms left as you found them (tidy!) |Behaviour must be impeccable at all times |If the teacher requests the room or it is used for a cover class then please respect this and find somewhere else to work |If students misuse a school space, they are liable to be sanctioned in accordance with the school behaviour policy | Where ongoing concerns occur, the room will be removed from the free rooms list")
+    st.info("Instructions for students: Strictly no eating | Quiet study only | Rooms left as you found them (tidy!) | Behaviour must be impeccable at all times | If the teacher requests the room or it is used for a cover class then please respect this and find somewhere else to work | If students misuse a school space, they are liable to be sanctioned in accordance with the school behaviour policy | Where ongoing concerns occur, the room will be removed from the free rooms list")
