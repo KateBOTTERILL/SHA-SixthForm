@@ -42,4 +42,4 @@ else:
 
 
 
-st.markdown("*Room data accurate as of 13/10/2025, ad hoc changes are not reflected*")
+st.markdown("*Room data was last updated on 13/10/2025. Please note that last-minute changes will not appear.*")
