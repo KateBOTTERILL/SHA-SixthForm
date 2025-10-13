@@ -21,7 +21,7 @@ if selected_periods:
     st.write(filtered_df[["Room"] + selected_periods])
 else:
     st.info("Please select at least one period to see available rooms.")
-    st.info("Room data accurate as of 13/10/2025")
+
 
 import streamlit as st
 
@@ -38,3 +38,4 @@ warning_message = """
 
 st.markdown(warning_message)
 
+    st.markdown("Room data accurate as of 13/10/2025")
