@@ -5,7 +5,7 @@ import pandas as pd
 st.image("Shaftesbury logo.png", width=150)
 
 # Load the Excel file
-df = pd.read_excel("Free rooms Jan26.xlsx", engine="openpyxl")
+df = pd.read_excel("Free rooms Mar26.xlsx", engine="openpyxl")
 
 # Extract all period columns
 period_columns = df.columns[1:]
@@ -42,5 +42,5 @@ else:
 
 
 
-st.markdown("*Room data was last updated on 15/01/2026. Please note that last-minute changes will not appear here.*")
+st.markdown("*Room data was last updated on 17/03/2026. Please note that last-minute changes will not appear here.*")
 st.markdown("*29/1/26 Update: B21 has been removed due to misuse.*")
