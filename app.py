@@ -44,3 +44,4 @@ else:
 
 st.markdown("*Room data was last updated on 17/03/2026. Please note that last-minute changes will not appear here.*")
 st.markdown("*29/1/26 Update: B21 has been removed due to misuse.*")
+st.markdown("*22/5/26 Update: B11 has been removed due to misuse.*")
