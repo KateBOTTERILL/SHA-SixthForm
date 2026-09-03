@@ -42,4 +42,4 @@ else:
 
 
 
-st.markdown("*Room data was last updated on 03/09/2026. Please note that last-minute changes will not appear here.*")
+st.markdown("*Room data updated 03/09/2026. Please note that last-minute changes will not appear here.*")
