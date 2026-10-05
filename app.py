@@ -38,8 +38,9 @@ if selected_periods:
     st.write(filtered_df[["Room"] + selected_periods])
 else:
     st.info("Please select at least one period to see available rooms.")
-    st.info("A9 has been removed due to misuse.")
+
 
 
 
 st.markdown("*Room data updated 01/10/2026. Please note that last-minute changes will not appear here.*")
+st.markdown("5/10/26: A9 has been removed due to misuse.")
